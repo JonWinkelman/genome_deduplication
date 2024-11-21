@@ -11,7 +11,7 @@ Dependencies:
 3) Create minhash sketches of each genome and calculate distance matrix using mash
 4) Choose a distance threshold to de-duplicate by
    * if a set of genomes are below this threshold, the genome with the highest n50 score is selected.
-<img src=figures/n50_scores.png alt="Assembly level" width="600" />  
+<img src=figures/n50_scores.png alt="Assembly level" width="600" />  <br>
 ### minHash genome distances
 <img src=figures/distances_all.png alt="Assembly level" width="600" />  
 ### minHash genome distances after deduplication, notice the absence of highly similar genomes
