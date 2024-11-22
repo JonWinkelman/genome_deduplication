@@ -9,9 +9,11 @@ Dependencies:
 2) Optional filtering step:
    * any genomes with an n50 below a given threshold are not downloaded.
 <img src=figures/genome_filtering_top70.0_perc.png alt="Example Image" width="600" />
+
 3) Create minhash sketches of each genome and calculate distance matrix using mash  
 4) Choose a distance threshold to de-duplicate by  
    * if a set of genomes are below this threshold, the genome with the highest n50 score is selected.
+     
 <img src=figures/n50_scores.png alt="Assembly level" width="600" />
 
 ### minHash genome distances
