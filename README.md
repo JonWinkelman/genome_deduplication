@@ -4,6 +4,7 @@ Dependencies:
 * datasets https://www.ncbi.nlm.nih.gov/datasets/docs/v2/reference-docs/command-line/datasets/
 * python3 `Bio` `pandas` `plotly` `numpy` 
 
+### Process  
 1) Download summaries/genomes/proteomes using datasets CLI
 2) Optional filtering step:
    * any genomes with an n50 below a given threshold are not downloaded.
